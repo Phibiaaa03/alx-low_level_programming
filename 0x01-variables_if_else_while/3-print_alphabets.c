@@ -1,15 +1,16 @@
 #include <stdio.h>
 
 /**
- * main - main function
+ * main - this is the function of this task
  *
- * Return: always 0
+ * Return: 0
  */
 int main(void)
+
 {
 	char i;
 
-	for (i = 'a' ; i <= 'z' ; i++)
+	for (i = 'a', i <= 'z' ; i++)
 		putchar(i);
 	for (i = 'A' ; i <= 'Z' ; i++)
 		putchar(i);
